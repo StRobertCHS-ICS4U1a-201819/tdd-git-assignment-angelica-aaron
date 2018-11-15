@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="851a2de2-d267-4a48-a912-99b51a251bf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +50,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="363">
+              <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
               <folding>
-                <marker date="1542319562000" expanded="true" signature="734:739" ph="..." />
+                <marker date="1542319573966" expanded="true" signature="734:739" ph="..." />
               </folding>
             </state>
           </provider>
@@ -98,8 +98,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
+    <option name="x" value="7" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -152,8 +152,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
-    <editor active="true" />
+    <frame x="7" y="23" width="1400" height="837" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -201,10 +200,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="363">
+          <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
           <folding>
-            <marker date="1542319562000" expanded="true" signature="734:739" ph="..." />
+            <marker date="1542319573966" expanded="true" signature="734:739" ph="..." />
           </folding>
         </state>
       </provider>

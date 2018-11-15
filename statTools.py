@@ -1,4 +1,3 @@
-import math
 def lowerQuartile(numlist: list) -> float:
 
     try:
