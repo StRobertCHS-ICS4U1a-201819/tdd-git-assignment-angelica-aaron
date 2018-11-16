@@ -20,3 +20,12 @@ def mode(num_list):
                current_occures = 1  # reset occurrences
            prev_num = num_list[i]
            i = + 1
+       if current_occures > max_occures:
+           mode_list = [num_list[len(num_list) - 1]]
+       elif current_occures == max_occures:
+           mode_list.append(num_list[i - 1])
+       return mode_list
+   except TypeError:
+        raise TypeError("Must input a list with only one data type")
+    except AttributeError:
+        raise AttributeError("Must input a list")
