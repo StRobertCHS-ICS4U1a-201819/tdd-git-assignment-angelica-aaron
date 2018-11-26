@@ -2,7 +2,7 @@ def lowerQuartile(numlist: list) -> float:
 
     try:
 
-        exceptionRaiser = sum(numlist)
+        exceptionraiser = sum(numlist)
 
         numlist.sort()
 
@@ -12,9 +12,9 @@ def lowerQuartile(numlist: list) -> float:
             return numlist[keyindex]
 
         elif len(numlist) % 4 == 0:
-            numOne = numlist[keyindex]
-            numTwo = numlist[keyindex - 1]
-            return (numOne + numTwo) / 2
+            numone = numlist[keyindex]
+            numtwo = numlist[keyindex - 1]
+            return (numone + numtwo) / 2
 
     except IndexError:
         raise IndexError("The index is out of range.")
@@ -29,7 +29,7 @@ def lowerQuartile(numlist: list) -> float:
 def upperQuartile(numlist: list) -> float:
 
     try:
-        exceptionRaiser = sum(numlist)
+        exceptionraiser = sum(numlist)
 
         numlist.sort()
 
@@ -39,9 +39,9 @@ def upperQuartile(numlist: list) -> float:
             return numlist[keyindex]
 
         elif len(numlist) % 4 == 3:
-            numOne = numlist[keyindex]
-            numTwo = numlist[keyindex + 1]
-            return (numOne + numTwo) / 2
+            numone = numlist[keyindex]
+            numtwo = numlist[keyindex + 1]
+            return (numone + numtwo) / 2
 
     except IndexError:
         raise IndexError("The index is out of range.")
@@ -51,3 +51,31 @@ def upperQuartile(numlist: list) -> float:
 
     except AttributeError:
         raise AttributeError("You did not input a list of integers.")
+
+def mean(numlist)
+
+    try:
+        listclone = numlist
+
+        numbersum = 0
+
+        for item in listclone:
+
+            numbersum = numbersum + item
+
+        finalnum = numbersum / len(numlist)
+
+        return finalnum
+
+    except:
+        return "Invalid Input"
+
+
+def numrange(alist):
+
+    try:
+        totalrange = max(alist) - min(alist)
+        return totalrange
+
+    except:
+        return "Invalid Input"
