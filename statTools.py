@@ -2,7 +2,7 @@ def lowerQuartile(numlist: list) -> float:
 
     try:
 
-        exceptionraiser = sum(numlist)
+        exceptionRaiser = sum(numlist)
 
         numlist.sort()
 
@@ -12,15 +12,15 @@ def lowerQuartile(numlist: list) -> float:
             return numlist[keyindex]
 
         elif len(numlist) % 4 == 0:
-            numone = numlist[keyindex]
-            numtwo = numlist[keyindex - 1]
-            return (numone + numtwo) / 2
+            numOne = numlist[keyindex]
+            numTwo = numlist[keyindex - 1]
+            return (numOne + numTwo) / 2
 
     except IndexError:
-        raise IndexError("The index is out of range.")
+        raise IndexError("The Index is Out of Range.")
 
     except TypeError:
-        raise TypeError("You did not input a list of integers.")
+        raise TypeRaiser("You Did Not Input a List of Integers.")
 
     except AttributeError:
-        raise AttributeError("You did not input a list of integers.")
+        raise AttributeError("You Did Not Input a List of Integers.")
