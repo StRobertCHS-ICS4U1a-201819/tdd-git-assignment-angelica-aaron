@@ -68,3 +68,12 @@ def mean(numlist)
 
    except:
        return "Invalid Input"
+
+def numrange(alist):
+
+   try:
+       totalrange = max(alist) - min(alist)
+       return totalrange
+
+   except:
+       return "Invalid Input"
