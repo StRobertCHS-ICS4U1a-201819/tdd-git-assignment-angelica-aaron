@@ -51,7 +51,7 @@ def upperQuartile(numlist: list) -> float:
    except AttributeError:
        raise AttributeError("You did not input a list of integers.")
 
-def mean(numlist)
+def mean(numlist):
 
    try:
        listClone = numlist
