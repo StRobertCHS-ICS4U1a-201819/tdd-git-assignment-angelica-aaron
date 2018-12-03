@@ -12,6 +12,8 @@ test_empty_list = []
 test_char_list = 'b'
 test_str_list = ['a', 'b', 'c', 'd']
 
+# test median
+
 def test_median_1():
     assert (median(test_list_1) == 2.5) # corner case
 
@@ -24,15 +26,67 @@ def test_median_3():
 def test_median_not_list():
     with pytest.raises(TypeError) as errmsg:
         median(test_str_list)
-    assert ('a list of intergers was not provided' == str(errmsg.value))
+    assert ("A list of integers was not provided." == str(errmsg.value))    # unusual case
 
 def test_median_string_list():
     with pytest.raises(TypeError) as errmsg:
         median(test_char_list)
-    assert ('a list of intergers was not provided' == str(errmsg.value))
+    assert ("A list of integers was not provided." == str(errmsg.value))    # unusual case
 
 def test_median_empty_list():
     with pytest.raises(IndexError) as errmsg:
         median(test_empty_list)
-    assert ('index is out of range' == str(errmsg.value))
+    assert ("Index is out of range." == str(errmsg.value))  # unusual case
 
+# test mode
+
+def test_mode_1():
+    assert (mode([1, 1, 2, 3]) == [1])   # general case
+
+def test_mode_2():
+    assert (mode([1, 2, 2, 3, 3, 3, 4]) == [3]) # general case
+
+def test_mode_3():
+    assert (mode([3]) == [1])   # general case
+
+def test_mode_4():
+    assert (mode([]) == [])   # corner case
+
+def test_mode_5():
+    assert (mode([2, 2, 3, 3, 5]) == [1])   # corner case
+
+def test_mode_string_list():
+    assert (mode(['a', 'b', 'b', 'c']) == ['b'])
+
+def test_mode_not_list():
+    with pytest.raises(AttributeError) as errmsg:
+        mode(1)
+    assert ("Must input a list." == str(errmsg.value))  # unusual case
+
+def test_mode_mult_data_type():
+    with pytest.raises(TypeError) as errmsg:
+        mode([2, 'b'])
+    assert ("Must input a list with only one data type." == str(errmsg.value))  # unusual case
+
+# test variance
+
+def test_variance_1():
+    assert (variance(test_list_1) == 2)
+
+def test_variance_2():
+    assert (variance(test_) == )
+
+def test_variance_3():
+    assert (variance(test_) == )
+
+def test_variance_4():
+    assert (variance(test_) == )
+
+def test_variance_5():
+    assert (variance(test_) == )
+
+def test_variance_6():
+    assert (variance(test_) == )
+
+def test_variance_7():
+    assert (variance(test_) == )

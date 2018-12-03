@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a70d1e5d-0a96-4a94-8e4b-afbb25e9a04f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statTools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +11,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_angelica_aaron$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1543807221111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-469187300">
@@ -37,27 +41,30 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="231" />
+          <entry key="py" value="1619" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="231" />
+          <entry key="Python" value="1619" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
+          <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -65,10 +72,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statTools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -76,11 +86,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="570">
+              <caret line="38" column="69" lean-forward="true" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1543327589483" expanded="true" signature="331:1061" ph="..." />
+                <marker date="1543808075000" expanded="true" signature="1450:1451" ph="..." />
+                <marker date="1543808075000" expanded="true" signature="1784:1953" ph="..." />
+                <marker date="1543808075000" expanded="true" signature="1975:1980" ph="..." />
+                <marker date="1543808075000" expanded="true" signature="1975:2358" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statTools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+              <folding>
+                <marker date="1543807220000" expanded="true" signature="1958:2241" ph="..." />
+                <marker date="1543807220000" expanded="true" signature="2264:2269" ph="..." />
               </folding>
             </state>
           </provider>
@@ -105,10 +131,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="714" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -119,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,15 +213,42 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.01 at 12h 50m 19s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.01 at 12h 50m 45s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.01 at 12h 56m 56s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.02 at 21h 35m 47s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.02 at 21h 40m 13s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.02 at 21h 54m 36s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.02 at 21h 55m 05s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_statTools_py - 2018.12.02 at 21h 59m 45s.xml">
+      <configuration name="pytest in test_statTools.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="714" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2609756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26494345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44193548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,7 +256,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32764506" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32741934" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -223,8 +276,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
@@ -232,18 +285,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="263">
+          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+          <folding>
+            <marker date="1543807220000" expanded="true" signature="1958:2241" ph="..." />
+            <marker date="1543807220000" expanded="true" signature="2264:2269" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="570">
+          <caret line="38" column="69" lean-forward="true" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1543327589483" expanded="true" signature="331:1061" ph="..." />
+            <marker date="1543808075000" expanded="true" signature="1450:1451" ph="..." />
+            <marker date="1543808075000" expanded="true" signature="1784:1953" ph="..." />
+            <marker date="1543808075000" expanded="true" signature="1975:1980" ph="..." />
+            <marker date="1543808075000" expanded="true" signature="1975:2358" ph="..." />
           </folding>
         </state>
       </provider>
