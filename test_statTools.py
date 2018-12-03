@@ -38,10 +38,12 @@ def test_median_empty_list():
         median(test_empty_list)
     assert ("Index is out of range." == str(errmsg.value))  # unusual case
 
-# test mode
+# test mode with own lists
 
 def test_mode_1():
     assert (mode([1, 1, 2, 3]) == [1])   # general case
+
+def test_mode_1():
 
 def test_mode_2():
     assert (mode([1, 2, 2, 3, 3, 3, 4]) == [3]) # general case
