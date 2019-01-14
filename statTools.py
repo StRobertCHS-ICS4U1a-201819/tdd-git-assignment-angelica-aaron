@@ -1,5 +1,6 @@
 import math
 
+# borrowed Aaron's mean code for variance
 
 def mean(numlist):
    try:
