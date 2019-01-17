@@ -1,4 +1,17 @@
+#----------------------------------------------------------------------------------------------
+# Name: statTools.py
+# Purpose: Mathematical functions
+#
+# Author: Ramos-Cortes A.
+#
+# Date: 29 December 2018
+#----------------------------------------------------------------------------------------------
 def lowerQuartile(numlist: list) -> float:
+    """Find the lower quartile for a list
+
+    :param numlist:
+    :return: lower quartile
+    """
 
     try:
 
@@ -6,54 +19,69 @@ def lowerQuartile(numlist: list) -> float:
 
         numlist.sort()
 
-        keyindex = len(numlist) // 4
+        keyIndex = len(numlist) // 4
 
         if len(numlist) % 4 == 2 or len(numlist) % 4 == 1:
-            return numlist[keyindex]
+            return numlist[keyIndex]
 
         elif len(numlist) % 4 == 0:
-            numOne = numlist[keyindex]
-            numTwo = numlist[keyindex - 1]
+            numOne = numlist[keyIndex]
+            numTwo = numlist[keyIndex - 1]
             return (numOne + numTwo) / 2
 
     except IndexError:
         raise IndexError("The Index is Out of Range.")
 
     except TypeError:
-        raise TypeRaiser("You Did Not Input a List of Integers.")
+        raise TypeError("You Did Not Input a List of Integers.")
 
     except AttributeError:
         raise AttributeError("You Did Not Input a List of Integers.")
 
 def upperQuartile(numlist: list) -> float:
+    """Find the upper quartile of a list
 
-   try:
-       exceptionRaiser = sum(numlist)
+    :param numlist:
+    :return: upper quartile
+    """
 
-       numlist.sort()
+    try:
+        exceptionRaiser = sum(numlist)
 
-       keyindex = (len(numlist) - 1) - (len(numlist) // 4)
+        numlist.sort()
 
-       if len(numlist) % 4 == 2 or len(numlist) % 4 == 1:
-           return numlist[keyindex]
+        keyIndex = (len(numlist) -1) - (len(numlist) // 4)
 
-       elif len(numlist) % 4 == 3:
-           numone = numlist[keyindex]
-           numtwo = numlist[keyindex + 1]
-           return (numone + numtwo) / 2
+        if len(numlist) % 4 == 2 or len(numlist) % 4 == 1:
+            return numlist[keyIndex]
 
-   except IndexError:
-       raise IndexError("The index is out of range.")
+        elif len(numlist) % 4 == 0:
+            numOne = numlist[keyIndex]
+            numTwo = numlist[keyIndex + 1]
+            return (numOne + numTwo) / 2
 
-   except TypeError:
-       raise TypeError("You did not input a list of integers.")
+        elif len(numlist) % 4 == 3:
+            numOne = numlist[keyIndex]
+            numTwo = numlist[keyIndex - 1]
+            return (numOne + numTwo) / 2
 
-   except AttributeError:
-       raise AttributeError("You did not input a list of integers.")
+    except IndexError:
+        raise IndexError("The Index is Out of Range.")
+
+    except TypeError:
+        raise TypeError("You Did Not Input a List of Integers.")
+
+    except AttributeError:
+        raise AttributeError("You Did Not Input a List of Integers.")
 
 def mean(numlist):
+    """find the mean of a list
 
-   try:
+    :param numlist:
+    :return: mean
+    """
+
+    try:
        listClone = numlist
 
        numberSum = 0
@@ -66,14 +94,20 @@ def mean(numlist):
 
        return finalNum
 
-   except:
+    except:
        return "Invalid Input"
+
 
 def numrange(alist):
+    """finds the range of a list
 
-   try:
-       totalrange = max(alist) - min(alist)
-       return totalrange
+    :param alist:
+    :return: range
+    """
 
-   except:
-       return "Invalid Input"
+    try:
+        totalrange = max(alist) - min(alist)
+        return totalrange
+
+    except:
+        return "Invalid Input"
