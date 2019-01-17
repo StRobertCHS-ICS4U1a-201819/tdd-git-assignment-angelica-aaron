@@ -1,3 +1,13 @@
+#-------------------------------------------------------------------------------
+# Name:	test_statTools.py
+# Purpose:
+# Tests the mathematical functions from statTools.py
+#
+# Author:	Drexler. A
+#
+# Created:	28/12/2018
+#-------------------------------------------------------------------------------
+
 import pytest
 from statTools import *
 

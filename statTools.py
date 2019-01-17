@@ -1,3 +1,13 @@
+#-------------------------------------------------------------------------------
+# Name:	statTools.py
+# Purpose:
+# Mathematical functions such as median, mode, variance, and standard deviation
+#
+# Author:	Drexler. A
+#
+# Created:	28/12/2018
+#-------------------------------------------------------------------------------
+
 import math
 
 # borrowed Aaron's mean code for variance
@@ -15,6 +25,11 @@ def mean(numlist):
 
 
 def median(num_list):
+    """Find the median of a list
+
+    :param num_list:
+    :return: the median
+    """
     try:
         exception_raiser = sum(num_list)
         num_list.sort()
@@ -34,7 +49,12 @@ def median(num_list):
 
 
 def mode(num_list):
-   try:
+    """Find the mode of a list
+
+    :param num_list:
+    :return: the mode
+    """
+    try:
        max_occures = 0
        current_occures = 0
        mode_list = []
@@ -59,13 +79,18 @@ def mode(num_list):
        elif current_occures == max_occures:
            mode_list.append(num_list[i - 1])
        return mode_list
-   except TypeError:
+    except TypeError:
         raise TypeError("Must input a list with only one data type.")
-   except AttributeError:
+    except AttributeError:
         raise AttributeError("Must input a list.")
 
 
 def variance(alist):
+    """Finds the variance of a list
+
+    :param alist:
+    :return: the variance
+    """
     try:
         mean_var = mean(alist)
         numList = []
@@ -80,6 +105,11 @@ def variance(alist):
 
 
 def standardDev(alist):
+    """Finds the standard deviation of a list
+
+    :param alist:
+    :return: the standard deviation
+    """
     try:
         sdv = variance(alist)
         sdv = math.sqrt(sdv)
